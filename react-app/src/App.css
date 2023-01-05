@@ -15,3 +15,98 @@ body {
   padding-top: 22px;
 }
 
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 30px;
+  margin-left: 2rem;
+}
+
+.Form {
+  background-color: #AFD7FA;
+  color: white;
+  font-weight: 550;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  padding: 1.2rem 1.2rem;
+  flex-direction: row;
+}
+
+.form-input {
+  border:0;
+  padding: 0.5rem;
+  margin: 0.7rem;
+  font-size: 1.2rem;
+  width: 25%;
+}
+
+.form-button {
+  background-color: #56C854;
+  color: #FFFFFF;
+  border-radius: 12px;
+  padding: 0.5rem 2rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: auto 0.5rem;
+}
+
+.form-button:hover {
+  background-color: #4E49AB;
+  cursor: pointer;
+}
+
+.List {
+  margin-top: 2rem;
+}
+
+.list-item {
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  text-align: left;
+  padding: 1.8rem 1.5rem;
+  margin: 1rem 0rem;
+}
+
+.item-number {
+  font-size: 1.2rem;
+  color: #36476D;
+  font-weight: 600;
+  margin: auto 2rem auto 1rem;
+}
+
+.item {
+  color: #36476D;
+  font-size: 1.2rem;
+  margin: auto 1rem;
+  font-weight: 600;
+  flex: 1;
+}
+
+.item-email {
+  color: #828EA6;
+  font-size: 1.2rem;
+  margin: auto 1rem;
+  flex: 2;
+}
+
+.delete-button {
+  background-color: #FF7676;
+  border: none;
+  border-radius: 12px;
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: auto 1rem auto auto;
+}
+
+.delete-button:hover {
+  background-color: #4E49AB;
+  cursor: pointer;
+}
+
+
+
